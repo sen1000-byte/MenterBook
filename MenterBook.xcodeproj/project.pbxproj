@@ -15,6 +15,10 @@
 		334449FE25CE6D3A00F8B959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334449FC25CE6D3A00F8B959 /* LaunchScreen.storyboard */; };
 		33444A0925CE6D3B00F8B959 /* MenterBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A0825CE6D3B00F8B959 /* MenterBookTests.swift */; };
 		33444A1425CE6D3B00F8B959 /* MenterBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A1325CE6D3B00F8B959 /* MenterBookUITests.swift */; };
+		33444A2925CE6DEB00F8B959 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33444A2625CE6DEB00F8B959 /* ryo.jpg */; };
+		33444A2A25CE6DEB00F8B959 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33444A2725CE6DEB00F8B959 /* nagata.jpg */; };
+		33444A2B25CE6DEB00F8B959 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33444A2825CE6DEB00F8B959 /* taithi.jpg */; };
+		33444A3025CE717100F8B959 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A2F25CE717100F8B959 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		33444A0F25CE6D3B00F8B959 /* MenterBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33444A1325CE6D3B00F8B959 /* MenterBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookUITests.swift; sourceTree = "<group>"; };
 		33444A1525CE6D3B00F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33444A2625CE6DEB00F8B959 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		33444A2725CE6DEB00F8B959 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		33444A2825CE6DEB00F8B959 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		33444A2F25CE717100F8B959 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,11 @@
 			children = (
 				334449F125CE6D3600F8B959 /* AppDelegate.swift */,
 				334449F325CE6D3600F8B959 /* SceneDelegate.swift */,
+				33444A2F25CE717100F8B959 /* Mentor.swift */,
 				334449F525CE6D3600F8B959 /* ViewController.swift */,
 				334449F725CE6D3600F8B959 /* Main.storyboard */,
 				334449FA25CE6D3A00F8B959 /* Assets.xcassets */,
+				33444A2425CE6DEB00F8B959 /* 06Class */,
 				334449FC25CE6D3A00F8B959 /* LaunchScreen.storyboard */,
 				334449FF25CE6D3A00F8B959 /* Info.plist */,
 			);
@@ -126,6 +136,24 @@
 				33444A1525CE6D3B00F8B959 /* Info.plist */,
 			);
 			path = MenterBookUITests;
+			sourceTree = "<group>";
+		};
+		33444A2425CE6DEB00F8B959 /* 06Class */ = {
+			isa = PBXGroup;
+			children = (
+				33444A2525CE6DEB00F8B959 /* images */,
+			);
+			path = 06Class;
+			sourceTree = "<group>";
+		};
+		33444A2525CE6DEB00F8B959 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				33444A2625CE6DEB00F8B959 /* ryo.jpg */,
+				33444A2725CE6DEB00F8B959 /* nagata.jpg */,
+				33444A2825CE6DEB00F8B959 /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33444A2B25CE6DEB00F8B959 /* taithi.jpg in Resources */,
+				33444A2925CE6DEB00F8B959 /* ryo.jpg in Resources */,
+				33444A2A25CE6DEB00F8B959 /* nagata.jpg in Resources */,
 				334449FE25CE6D3A00F8B959 /* LaunchScreen.storyboard in Resources */,
 				334449FB25CE6D3A00F8B959 /* Assets.xcassets in Resources */,
 				334449F925CE6D3600F8B959 /* Main.storyboard in Resources */,
@@ -258,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33444A3025CE717100F8B959 /* Mentor.swift in Sources */,
 				334449F625CE6D3600F8B959 /* ViewController.swift in Sources */,
 				334449F225CE6D3600F8B959 /* AppDelegate.swift in Sources */,
 				334449F425CE6D3600F8B959 /* SceneDelegate.swift in Sources */,
